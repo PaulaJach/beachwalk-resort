@@ -1,10 +1,13 @@
 import React from 'react'
+import Hero from '../globals/Hero';
+import aboutImg from '../../images/aboutBcg.jpeg';
+import homeImg from '../../images/homeBcg.jpeg';
 
 const Header = () => {
     return (
-        <div>
-            Hello from Header
-        </div>
+        <Hero img={homeImg}>
+            <h1>Hello world</h1>
+        </Hero>
     )
 };
 

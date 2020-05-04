@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { setColor, setFont } from '../../styles';
 
 const GlobalStyles = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lato:wght@400;700&display=swap');
@@ -11,10 +12,8 @@ const GlobalStyles = createGlobalStyle`
 
 body {
     font-size: 100%;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Courgette', cursive;
-    color: #222;
-    background: #fff;
+    color: ${setColor.mainBlack};
+    background: ${setColor.mainWhite};
   }
 h1 {
     font-size: 3em;
