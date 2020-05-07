@@ -17,8 +17,8 @@ const fadeIn = (start, point, end) => {
         transform: translateY(${end});
     }
     `;
-return css`
-    animation: ${animation} 3s ease-in-out
+    return css`
+        animation: ${animation} 3s ease-in-out;
     `;
 
 };
