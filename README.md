@@ -1,3 +1,5 @@
+In project I practiced react.js library with styled-components.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
